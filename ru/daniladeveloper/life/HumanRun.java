@@ -82,6 +82,7 @@ public class HumanRun implements Runnable, Callable {
     }
 
     public void sleep() {
+        System.out.println("Human " + name + ": is going to sleep");
         while (day.getHour() < TIME_TO_GET_UP) {
             wasteTime(10);
             System.out.println("Human " + name + ": sleeping...");

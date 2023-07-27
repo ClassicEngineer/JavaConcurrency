@@ -1,6 +1,6 @@
 package ru.daniladeveloper.example;
 
-public class SynchronizedMain {
+public class ExampleMain {
 
 
     public static void main(String[] args) throws InterruptedException {

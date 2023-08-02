@@ -1,10 +1,10 @@
 package ru.daniladeveloper.singleton;
 
 /**
- * This version of Singleton realize double-checked locking and not thread-safe
+ * This version of Singleton realize double-checked locking and  thread-safe only with volatile
  */
 public class DoubleCheckedSingleton {
-    private static DoubleCheckedSingleton INSTANCE;
+    private static volatile DoubleCheckedSingleton INSTANCE;
 
     int x = 1;
 
